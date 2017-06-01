@@ -19,6 +19,12 @@ let label = UILabel()
 
 ChainKit allows you to set properties of many `UIKit` and `Foundation` objects during initialization. This can result in clearer syntax and allow the setup of objects without having to rely on verbose closures.
 
+## Install with CocoaPods
+
+```ogdl
+pod 'ChainKit', :git => 'https://github.com/justinroam/ChainKit.git'
+```
+
 ## Install with Carthage
 To integrate ChainKit into your Xcode project using [Carthage](https://github.com/Carthage/Carthage), specify it in your `Cartfile`:
 
