@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.summary      = "Chained initializers in Swift."
   s.homepage     = "https://github.com/justinroam/ChainKit"
   s.license      = "MIT License"
-  s.source       = { :git => "https://github.com/justinroam/ChainKit" }
-
+  s.source       = { :git => "https://github.com/justinroam/ChainKit.git" }
+  s.authors      = { 'Avario' => 'avario' }
+  s.source_files = 'ChainKit/ChainKit/*.swift'
 end
