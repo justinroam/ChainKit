@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/justinroam/ChainKit.git" }
   s.authors      = { 'Avario' => 'avario' }
   s.source_files = 'ChainKit/ChainKit/*.swift'
+  s.module_name  = 'ChainKit'
 end
