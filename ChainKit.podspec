@@ -10,4 +10,6 @@ Pod::Spec.new do |s|
   s.authors      = { 'Avario' => 'avario' }
   s.source_files = 'ChainKit/ChainKit/*.swift'
   s.module_name  = 'ChainKit'
+
+  s.ios.deployment_target = "9.0"
 end
